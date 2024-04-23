@@ -2,9 +2,8 @@
 title: "Docker Intro Blog"
 date: 2024-04-23 00:00:00 +0800
 categories: [Docker]
-tags: [Tanvi-21BCP218]
+tags: [tanvidocker]
 ---
-
 # Getting Started with Docker
 
 ## Introduction
@@ -39,11 +38,11 @@ To get started with Docker, you'll need to install the Docker Engine on your loc
 
 Once Docker is installed, you can use the Docker CLI to interact with the Docker daemon and manage containers and images. Here are some basic commands to get you started:
 
-- docker pull <image>: Pulls a Docker image from Docker Hub.
-- docker run <image>: Runs a container based on the specified image.
-- docker build -t <tag> .: Builds a Docker image from the Dockerfile in the current directory.
-- docker push <image>: Pushes a Docker image to Docker Hub.
+- docker pull `<image>`: Pulls a Docker image from Docker Hub.
+- docker run `<image>`: Runs a container based on the specified image.
+- docker build -t `<tag>` .: Builds a Docker image from the Dockerfile in the current directory.
+- docker push `<image>`: Pushes a Docker image to Docker Hub.
 
 ## Conclusion
 
-Docker simplifies the process of building, shipping, and running applications by leveraging containerization technology. By using Docker, developers can create lightweight, portable containers that can run consistently across different environments. With Docker Hub providing a vast repository of pre-built images, developers can streamline their development workflow, improve collaboration, and increase productivity.  
+Docker simplifies the process of building, shipping, and running applications by leveraging containerization technology. By using Docker, developers can create lightweight, portable containers that can run consistently across different environments. With Docker Hub providing a vast repository of pre-built images, developers can streamline their development workflow, improve collaboration, and increase productivity.
